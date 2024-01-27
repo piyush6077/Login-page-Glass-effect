@@ -1,0 +1,133 @@
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oxygen&display=swap'); */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+    text-decoration: none;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Oxygen', sans-serif;
+}
+
+.main{
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    background: red;
+    align-items: center;
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.signin__Container{
+    display:flex;
+    flex-direction: column;
+    width:30%;
+    height:65%;
+    border:1px solid white;
+    background:rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 15px;
+}
+
+.flexr{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.username{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+    width: 80%;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.general{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.label{
+    color:white;
+    transform: translate(20px,30px);
+    transition: transform 600ms;
+}
+
+.username:hover label{
+    color:white;
+    transform:translate(0,-10px);
+}
+
+.label2{
+    color:white;
+    transition: transform 600ms;
+    transform:translate(0,-10px);
+}
+
+.password:hover label{
+    transform:translate(0,-10px);
+}
+
+.text{
+    display:flex;
+    flex-wrap: nowrap;
+    width:100%;
+    Outline:none;
+    border:none;
+    padding:10px 0;
+    background:transparent;
+    border: 1px solid white;
+    border: none;
+    border-bottom: 1px solid white;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px; */
+    font-size: 18px;
+}
+
+
+
+.btn{
+    width:90%;
+    padding:10px 0 ;
+    border-radius: 50px;
+    border:none;
+    font-size: 20px;
+    color:black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background: rgb(228, 228, 228);
+    box-shadow: 10px 10px 10px inset rgb(77, 77, 77);
+    /* filter: brightness(150%); */
+}
+
+.center{
+    text-align: center;
+}
+
+.new{
+    transition: 1s ease;
+}
+

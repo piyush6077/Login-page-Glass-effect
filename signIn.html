@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signinStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oxygen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main" id="main2">
+        <div class="signin__Container">
+            <div><h1 class="center" >Signin</h1></div>
+            <br>
+            <br>
+            <div class="username flexr">
+                <label for="newname"id="label" class="label" onclick="translatelabel()">Username</label>
+                <input type="text" class="text" name="newname" id="newname">
+            </div>
+            <br>
+            <br>
+            <div class="password flexr">
+                <label for="password"  id="labelpass" class="label">Password</label>
+                <input type="text"  class="text" name="password" id="newpassword">
+            </div>
+            <br>
+            <br>
+            <button class="btn" id="btn_sign" onclick="signin()">Sign-in</button>
+            <span>Already have account ? <a href="index.html" onclick="newlog()">log-in</a>
+        </div>
+    </div>
+
+    <script src="brain.js"></script>
+</body>
+</html>
